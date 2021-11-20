@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+.menu{
+    background-color: coral;
+}
+.menu ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.menu ul li{
+display: inline-block;
+position: relative;
+}
+.menu ul li a{
+    color: cornsilk;
+    display: block;
+    text-decoration: none;
+    padding: 20px 96.2px;
+}
+.menu ul li a:hover{
+    background-color: darkmagenta;
+}
+
+.menu li a:hover{
+    color: rgb(247, 7, 19);
+    transition: all .6s;
+}
+form{
+    color: blanchedalmond;
+    
+}
+form{
+    width: 30%;
+    border: 5px solid brown;
+    margin: 80px;
+    padding: 50px;
+}
+label{
+    font-size: 30px;
+    display: block;
+    width: 100%;
+}
+input, textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 3px solid coral;
+}
+input:focus{
+    border: 5px solid darkmagenta;
+}
+input[type="submit"]{
+    margin-bottom: 0;
+    background: darkmagenta;
+    color: rgb(251, 253, 253);
+    border: none;
+}
+input[type="submit"]:hover{
+    background: darkorchid;
+    cursor: pointer;
+}
+.log{
+    border-radius: 5px;
+    position: absolute;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+}

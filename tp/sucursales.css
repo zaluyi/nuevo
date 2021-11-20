@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+.menu{
+    background-color: coral;
+}
+.menu ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.menu ul li{
+display: inline-block;
+position: relative;
+}
+.menu ul li a{
+    color: cornsilk;
+    display: block;
+    text-decoration: none;
+    padding: 20px 96.2px;
+}
+.menu ul li a:hover{
+    background-color: darkmagenta;
+}
+
+.menu li a:hover{
+    color: rgb(247, 7, 19);
+    transition: all .6s;
+}
+h3{
+    text-align: left;
+    color: rgb(247, 7, 19);
+}
+.frame1 iframe{
+    position: absolute;
+    top: 150px;
+    left: 330px;
+    right: 50px;
+    width: 50%;
+    height: 50%;
+}
+h3{
+    text-align: center;
+}
+    
